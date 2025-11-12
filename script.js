@@ -30,6 +30,7 @@ async function buscarCotacoes() {
   }
 }
 
-// Atualiza ao carregar e a cada 30 segundos
+// Ele atualiza ao carregar e a cada 30 segundos
 buscarCotacoes();
 setInterval(buscarCotacoes, 30000);
+
