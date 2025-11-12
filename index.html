@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cotação Hoje</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>💱 Cotação Hoje</h1>
+    <p class="atualizado">Atualizando automaticamente a cada 30 segundos</p>
+
+    <div class="cotacoes">
+      <div class="moeda" id="dolar">
+        <h2>💵 Dólar (USD)</h2>
+        <p id="valorDolar">Carregando...</p>
+        <span id="variacaoDolar"></span>
+      </div>
+
+      <div class="moeda" id="euro">
+        <h2>💶 Euro (EUR)</h2>
+        <p id="valorEuro">Carregando...</p>
+        <span id="variacaoEuro"></span>
+      </div>
+    </div>
+
+    <p id="erro" class="erro"></p>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
